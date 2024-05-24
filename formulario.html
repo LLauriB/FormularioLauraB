@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formulario de Registro</title>
+    </head>
+    <body>
+        <h1>Formulario de registro</h1>
+        <form>
+            <div>
+                <label>Primer nombre:*</label> 
+                <input type="text" name="Primer nombre"
+                checked
+                placeholder="Lucina">
+            </div>
+            <br>
+            <div>
+                <label>Apellido:*</label>
+                <input type="text" name="Apellido"
+                checked
+                placeholder="López">
+            </div>
+            <br>
+            <div>
+                <label>Correo electrónico:*</label>
+                <input type="text" name="Correo electrónico"
+                checked
+                placeholder="lucinalopez@gmail.com">
+            </div>
+            <br>
+            <div>
+                <label>Contraseña:*</label>
+                <input type="password" name="Contraseña"
+                checked
+                placeholder="********">
+            </div>
+            <br>
+            <div>
+                <label>Confirmar contraseña:*</label>
+                <input type="password" name="Confirmar contraseña"
+                checked
+                placeholder="********">
+            </div>
+            <br>
+            <div>
+                <label>Fecha de cumpleaños:</label>
+                <input type="date" name="Fecha de cumpleaños">
+            </div>
+            <br>
+            <div>
+                <p><strong>Género</strong></p>
+                <input type="radio" name="Género" value="Femenino" id="Femenino">
+                <label for="Femenino">Femenino</label>
+
+                <input type="radio" name="Género" value="Masculino" id="Masculino">
+                <label for="Masculino">Masculino</label>
+
+                <input type="radio" name="Género"  value="No binario" id="No binario">
+                <label for="No binario">No binario</label>
+
+                <input type="radio" name="Género" value="Prefiero no responder" id="Prefiero no responder">
+                <label for="Prefiero no responder">Prefiero no responder</label>
+            </div>
+            <br>
+            <div>
+                <p><strong>Una breve descripción sobre mi</strong></p>
+                <textarea name="comment" cols="50" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Lenguaje favorito de programacion:</label>
+                <select name="lenguajes">
+                    <option>JavaScript</option>
+                    <option>Python</option>
+                    <option>PHP</option>
+                    <option>Ruby</option>
+                    <option>TypeScript</option>
+                    <option>Java</option>
+                    <option>Swift</option>
+                    <option>Kotlin</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="accept"
+                id="accept" checked>
+                <label for="accept">Me gustaría recibir actualizaciones periódicas por correo electrónico!</label>
+            </div>
+            <br>
+            <div>
+            <input type="submit" value="Crear cuenta">
+            </div>
+            <br>
+            <div>
+                <p>* Indica un campo requerido</p>
+            </div>
+        </form>
+    </body>
+</html>
